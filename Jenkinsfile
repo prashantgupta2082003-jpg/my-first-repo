@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('1. Checkout'){
             steps{
-                git url:'https://gitlab.siescoms.in/mca25024/repo.git' ,branch:'main'
+                git 'https://github.com/prashantgupta2082003-jpg/my-first-repo.git'
             }
         }
 
